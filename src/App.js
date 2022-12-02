@@ -1,11 +1,16 @@
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Form from './pages/Form/Form';
 import './App.scss';
 
-function App() {
+export default function App() {
   return (
    <>
-   <h1>TEST</h1>
+    <BrowserRouter className='browser-router'>
+      <Routes>
+        <Route path="/" element={<Navigate to ="/register" replace={true} />} />
+        <Route path="/register" element={<Form />} />
+      </Routes>
+    </BrowserRouter>
    </>
   );
 }
-
-export default App;
