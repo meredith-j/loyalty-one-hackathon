@@ -1,0 +1,112 @@
+@use '../../assets/styles/colours' as *;
+@use '../../assets/styles/fonts' as *;
+
+.form {
+    &__brands-background-1{
+        background-image: url(../../assets/images/burberry-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-2{
+        background-image: url(../../assets/images/phillips-logo.svg);
+        background-color: #F7F7F7;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-3{
+        background-image: url(../../assets/images/aria-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-4{
+        background-image: url(../../assets/images/coach-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-5{
+        background-image: url(../../assets/images/dyson-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-6{
+        background-image: url(../../assets/images/lug-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-7{
+        background-image: url(../../assets/images/silkin-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-8{
+        background-image: url(../../assets/images/adidas-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-9{
+        background-image: url(../../assets/images/swarovski-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__brands-background-10{
+        background-image: url(../../assets/images/conair-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-11{
+        background-image: url(../../assets/images/fossil-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__brands-background-12{
+        background-image: url(../../assets/images/roots-logo.png);
+        background-color: #F7F7F7;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    &__input-brands {
+        &:focus {
+            border: 0.25rem solid #27547E;
+        }
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 3rem 0 2rem 0;
+    }
+}

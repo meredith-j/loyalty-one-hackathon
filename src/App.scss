@@ -1,4 +1,110 @@
+@use './assets/styles/fonts' as *;
+@use './assets/styles/colours' as *;
+
 body {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Archivo";
+  font-weight: 300;
+  padding: 0 1rem 5rem 1rem;
+}
+
+.register {
+
+  &__progress {
+    padding: 3rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__header {
+    font-size: 20px;
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+    font-family: 'Monsterrat';
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    padding: 3px;
+    color: #27547E;
+    padding: 1rem 0 0.5rem 0;
+  }
+
+  &__input-text {
+    &:focus {
+      outline: none;
+      border-color: #E2E8F0;
+      color: #696969;
+    }
+
+    width: 68%;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #E2E8F0;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #696969;
+  }
+
+  &__input-text--last {
+    margin: 0 0 3.5rem 0;
+  }
+
+  &__information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  &__submit {
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    background-color: #27547E;
+    color: $white;
+    padding: 1rem 0;
+    width: 65%;
+    text-align: center;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  &__input-values {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: center;
+    color: #27547E;
+  }
+
+  &__input-value {
+    &:focus {
+      background-color: #27547E;
+      color: #FFFFFF;
+    }
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #27547E;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: #27547E;
+  }
+
+  &__checkbox{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 0 0;
+    align-items: flex-start;
+    width: 78%;
+    gap: 0.5rem;
+  }
+
+  &__label--checkbox {
+    color: black;
+  }
 }

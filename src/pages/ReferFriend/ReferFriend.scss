@@ -1,0 +1,35 @@
+@use '../../assets/styles/colours' as *;
+@use '../../assets/styles/fonts' as *;
+
+.refer {
+
+    &__image-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__image {
+        padding: 3rem 0;
+    }
+
+    &__info {
+        font-family: 'Archivo';
+        font-size: 1.5rem;
+        line-height: 0rem;
+        text-align: center;
+    }
+
+    &__info--bottom {
+        padding: 0 0 3rem 0;
+    }
+
+    &__skip{
+        font-family: 'Archivo';
+        font-size: 1.25rem;
+        text-align: center;
+        padding: 1rem 0 0 0;
+        text-decoration: none;
+        margin: auto;
+        display: block;
+    }
+}

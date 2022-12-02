@@ -1,0 +1,23 @@
+@use '../../assets/styles/colours' as *;
+@use '../../assets/styles/fonts' as *;
+
+.confirm {
+
+    &__image-div {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__image {
+        padding: 3rem 0;
+    }
+
+    &__info {
+        text-align: center;
+        padding: 0 0 3rem 0;
+    }
+
+    &__header {
+        font-weight: 400;
+    }
+}

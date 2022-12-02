@@ -1,0 +1,94 @@
+@use '../../assets/styles/colours' as *;
+@use '../../assets/styles/fonts' as *;
+
+.form {
+    &__personalization-background-1{
+        background-image: url(../../assets/icons/music-icon.svg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__personalization-background-2{
+        background-image: url(../../assets/icons/fashion-icon.svg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__personalization-background-3{
+        background-image: url(../../assets/icons/fitness-icon.svg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__personalization-background-4{
+        background-image: url(../../assets/icons/movie-icon.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__personalization-background-5{
+        background-image: url(../../assets/icons/food-icon.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__personalization-background-6{
+        background-image: url(../../assets/icons/health-beauty-icon.svg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__personalization-background-7{
+        background-image: url(../../assets/icons/tech-icon.svg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__personalization-background-8{
+        background-image: url(../../assets/icons/home-icon.svg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__personalization-background-9{
+        background-image: url(../../assets/icons/travel-icon.svg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+
+    &__input-interests {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 3rem 0 5rem 0;
+    }
+
+
+    &__input-icon {
+        &:focus {
+            border: 0.25rem solid #27547E;
+        }
+
+        width: 30%;
+        padding: 4rem 0 0.5rem 0;
+        height: 6.625rem;
+        margin: 0 0 1rem 0;
+        border: 1px solid #27547E;
+        border-radius: 0.5rem;
+        background-color: white;
+        white-space: normal;
+        font-size: 1rem;
+        color: #27547E;
+    }
+}

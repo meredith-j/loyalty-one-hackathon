@@ -1,0 +1,56 @@
+@use '../../assets/styles/colours' as *;
+@use '../../assets/styles/fonts' as *;
+
+.create {
+
+
+    &__disclaimer {
+        padding: 1.5rem 0;
+        color: #696969;
+        font-size: 12px;
+        text-align: center;
+        width: 65%;
+    }
+
+    &__choice {
+        font-size: 12px;
+        text-align: center;
+        padding: 0 0 1rem 0;
+        width: 65%;
+    }
+
+    &__options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__platforms {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 0 0 3rem 0;
+    }
+
+    &__icon {
+        border: 1px solid #696969;
+        border-radius: 50%;
+    }
+
+    &__icon--apple {
+        height: 3.5rem;
+        padding: 0.2rem;
+        padding: 0 0.25rem;
+    }
+
+    &__icon--google {
+        width: 3rem;
+        padding: 0.25rem;
+    }
+
+    &__icon--facebook {
+        width: 61px;
+        height: 57px;
+    }
+}
